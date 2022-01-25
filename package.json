@@ -1,0 +1,19 @@
+{
+  "name": "automationConsultaCorreios",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/luizemarin/automationConsultaCorreios.git",
+  "author": "Luiz <luizemarin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "cypress": "^9.3.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
