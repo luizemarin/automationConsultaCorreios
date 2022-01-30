@@ -1,7 +1,6 @@
 Feature: Zip Code query in api Correios
 
         Scenario Outline: Valid Zip Code
-    # Given user can search by zip code
              When search a valid zip code - <ZipCode>
              Then must bring the information linked to the street
 
@@ -12,7 +11,6 @@ Feature: Zip Code query in api Correios
 
 
         Scenario Outline: Invalid Zip Code
-    # Given user can search by zip code
              When search a invalid zip code - <ZipCode>
              Then should not bring the information linked to the street
 
