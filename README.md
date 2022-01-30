@@ -4,6 +4,10 @@
 
 Automation for query zip code in api ViaCep
 
+# Pre condition
+
+Have installed: - NodeJs - Yarn or Npm - Git
+
 # Step 1
 
 To run tests, first must be necessary to download the dependencies (node_modules)
